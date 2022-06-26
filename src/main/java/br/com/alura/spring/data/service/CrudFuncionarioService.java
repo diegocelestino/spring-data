@@ -154,6 +154,7 @@ public class CrudFuncionarioService {
 		Iterable<Funcionario> funcionarios = funcionarioRepository.findAll();
 		funcionarios.forEach(funcionario -> System.out.println(funcionario));
 	}
+
 	
 	private void deletar(Scanner scanner) {
 		System.out.println("Id");
